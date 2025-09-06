@@ -1,16 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main(){
     string nama;
     int usia;
-
-    cout << "Masukkan nama Anda: ";
-    getline(cin, nama);
     
-    cout << "Masukkan usia Anda: ";
+    cout << "Masukan nama anda: ";
+    cin >> nama;
+    
+    cout << "Masukan usia anda:n ";
     cin >> usia;
     
-    cout << "Halo " << nama << ", usia Anda " << usia << " tahun." << endl;
+    cout << "Halo nama saya " << nama << ", usia saya ";
+    cout << usia << " tahun" << endl;
+    
     return 0;
 }
