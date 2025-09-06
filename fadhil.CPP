@@ -8,7 +8,7 @@ int main(){
     cout << "Masukan nama anda: ";
     cin >> nama;
     
-    cout << "Masukan usia anda:n ";
+    cout << "Masukan usia anda: ";
     cin >> usia;
     
     cout << "Halo nama saya " << nama << ", usia saya ";
