@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    cout << "Cerita Upin & Ipin ";
+    cout << "mengisahkan sehari - hari 2 saudara kembar ";
+    cout << "yang tinggal bersama nenek dan kakaknya, ";
+    cout << "di sebuah desa bernama Kampung Durian Runtuh. ";
+    cout << "Mereka diasuh oleh nenek dan kakaknya ";
+    cout << "setelah kedua orang tua mereka meninggal dunia. ";
+    cout << "Mereka menghabiskan hari - harinya dengan pergi ke tadika, ";
+    cout << "mereka berlajar banyak hal dari nenek dan kakaknya ";
+    cout << "seperti menghormati orang dewasa, menjaga kebersihan, ";
+    cout << "dan membantu orang lain. ";
+    return 0;
+    
+}
