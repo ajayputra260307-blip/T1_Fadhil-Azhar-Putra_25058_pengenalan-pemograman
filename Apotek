@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string namaObat;
+    int stok;
+    double harga;
+    
+    cout << "===Apotek Kang Ajay===" << endl;
+    cout << "Masukan Nama Obat = ";
+    cin >> namaObat;
+    
+    cout << "Masukana stok obat = ";
+    cin >> stok;
+    
+    cout << "Masukan Hartga Obat = ";
+    cin >> harga;
+    
+    cout << "===STRUK OBAT===" <<endl;
+    cout << "Nama Obat :" << namaObat <<endl;
+    cout << "stok obat :" << stok <<endl;
+    cout << "harga obat :" << harga <<endl;
+    cout << "===END===";
+    
+    return 0;
+}
