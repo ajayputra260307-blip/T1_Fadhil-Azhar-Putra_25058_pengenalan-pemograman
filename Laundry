@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string namaPelanggan;
+    int jumlahPakaian;
+    double tarif;
+
+    cout << "=== Laundry Kang Ajay ===" << endl;
+    cout << "Masukkan Nama Pelanggan = ";
+    cin >> namaPelanggan;
+
+    cout << "Masukkan Jumlah Pakaian = ";
+    cin >> jumlahPakaian;
+
+    cout << "Masukkan Tarif per Pakaian = ";
+    cin >> tarif;
+
+    cout << "\n=== STRUK LAUNDRY ===" << endl;
+    cout << "Nama Pelanggan : " << namaPelanggan << endl;
+    cout << "Jumlah Pakaian : " << jumlahPakaian << endl;
+    cout << "Tarif per Pakaian : " << tarif << endl;
+    cout << "=== END ===" << endl;
+
+    return 0;
+}
