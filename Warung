@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string namaBarang = "Indomie Goreng";
+    int jumlah = 100;
+    double harga = 3500;
+
+    cout << "=== Data Warung Kang Ajay ===" << endl;
+    cout << "Nama Barang   : " << namaBarang << endl;
+    cout << "Jumlah Barang : " << jumlah << " pcs" << endl;
+    cout << "Harga Barang  : Rp " << harga << endl;
+
+    return 0;
+}
